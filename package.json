@@ -1,0 +1,24 @@
+{
+  "name": "softbussbookingback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "node index.js",
+    "start-dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "data:import" :" node seed.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^8.2.0",
+    "mongoose-sequence": "^6.0.1",
+    "morgan": "^1.10.0",
+    "validator": "^13.11.0"
+  }
+}
