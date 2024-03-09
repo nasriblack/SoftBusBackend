@@ -5,7 +5,8 @@ const router = express.Router();
 router.get('/:id', getSingleBus)
 
 router.patch("/edit-bus/:id", updateBus);
-router.patch("/:id/seats/:seatId", updateSeat);
+// router.patch("/bus/seats/:id/:seatId", updateSeat);
+router.patch("/seats/:id/:seatId", updateSeat);
 
 
 module.exports = router;
